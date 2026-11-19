@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomPetals - Fleuriste Evénement</title>
+    <meta name="description" content="Entreprise spécialisé et passioné dans la création de bouquet de fleurs pour vos plus grands (et plus petits) événements!">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site">
+
+<!--Gros Titre-->
+<section>
+     <img src="bloom-images/logo-bloompetals-degrade-fleurs.png" width="300" alt="Logo BloomPetals">
+</section>
+
+<!--Info de la page-->
+<header>
+    <a href="index.html">Accueil</a>
+    <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+    <a href="nos-realisations.html">Nos réalisations</a>
+    <a href="contact.html">Contact</a>
+    <a href="entreprise.html">Au coeur de l'entreprise</a>
+</header>
+
+<section class="contact">
+      <h1>Contactez-nous</h1>
+
+      <section class="form">
+        <section for="civilite">Civilité</section>
+        <select id="civilite" name="civilite" required>
+          <option value="">Choisissez une civilité</option>
+          <option value="madame">Madame</option>
+          <option value="monsieur">Monsieur</option>
+          <option value="autre">Autre</option>
+        </select>
+
+        <section for="prenom">Prénom</section>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <section for="nom">Nom</section>
+        <input type="text" id="nom" name="nom" required>
+
+        <section for="adresse">Adresse postale</section>
+        <input id="adresse" name="adresse" rows="3" required></input>
+
+        <section>
+          <input type="checkbox" name="confidentialite" required>J'accepte la politique de confidentialité.
+        </section>
+
+        <button type="submit">Envoyer</button>
+      </section>
+</section>
+
+</div>
+</body>
+</html>

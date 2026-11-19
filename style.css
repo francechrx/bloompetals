@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    background-color: #d9ffdd7e;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, footer {
+    color: rgb(38, 81, 37);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: #c3ebc9;
+    margin: 15px;
+    border-radius: 12px;
+    padding: 10px;  
+}
+
+a {
+    color: rgb(12, 80, 58);
+    text-decoration: none;
+}
+
+.accroche {
+    color: white;
+    text-shadow: -2px 2px 5px rgba(18, 30, 23, 0.716);
+    text-align: left;
+    background-image: url(bloom-images/fond4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 10%;
+}   
+
+.bouquets {
+    color: rgb(38, 81, 37);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.bouquets img {
+    display: block;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.bouquets img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px #0b1a13;
+}
+
+.services, .realisation, .qui, .entreprise, .contact, .rea {
+    color: #25543f;
+}
+
+.ex {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    text-align: left;
+}
+
+.ex p {
+    font-style: italic;
+}
+
+.ex img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.accroche button, .ex button, .form button {
+    background: linear-gradient(135deg, #0b1a13,#6a8f74, #122f25);
+    text-shadow: -2px 2px 5px rgba(7, 26, 15, 0.716);
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 0 4px 12px rgba(37, 53, 108, 0.2);
+}
+
+.accroche button:hover, .ex button:hover, .form button:hover {
+    background: linear-gradient(135deg, #23302a,#8eaa95, #25342f);
+    background: linear-gradient();
+    transform: scale(1.05);
+}
+
+.form {
+  max-width: 550px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #c3ebc9;
+  border-radius: 12px;
+  text-align: center;
+  }
+
+.reaimg {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 120px;
+  gap: 12px;
+}
+
+.reaimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+
+
