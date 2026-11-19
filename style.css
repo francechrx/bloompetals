@@ -57,6 +57,7 @@ a {
 
 .services, .realisation, .qui, .entreprise, .contact, .rea {
     color: #25543f;
+    font-style: italic;
 }
 
 .ex {
@@ -66,9 +67,6 @@ a {
     text-align: left;
 }
 
-.ex p {
-    font-style: italic;
-}
 
 .ex img {
     display: block;
@@ -121,7 +119,6 @@ a {
   object-fit: cover;
   border-radius: 10px;
 }
-
 
 
 
